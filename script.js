@@ -294,6 +294,141 @@
     // } 
 
 
+// Factory Functions
+  // const cellphone = {
+  //   cellphoneBrand : 'LG',
+  //   screenHeight : {
+  //     vertical : 155,
+  //     horizontal : 75,
+  //   },
+  //   batteryCapacity : 5000,
+  //   call : function() {
+  //     console.log("Calling...");
+  //   }
+  // }
+
+  // // Factory functions
+  // function createCellphone(cellphoneBrand, screenHeight, batteryCapacity) {
+  //   return {
+  //     cellphoneBrand,
+  //     screenHeight,
+  //     batteryCapacity,
+  //     call() {
+  //       console.log("Calling...");
+  //     }
+  //   }
+  // }
+
+  // let cellphones = [
+  //   createCellphone('LG', 5.5, 5000),
+  //   createCellphone('Moto G4', 5.2, 3600),
+  //   createCellphone('Iphone 9', 5.0, 4000),
+  // ];
+
+  // console.log(cellphones);
+
+// Constructor Functions
+  // camelCase
+  // function createCellphone(cellphoneBrand, screenHeight, batteryCapacity) {
+  //   return {
+  //     cellphoneBrand,
+  //     screenHeight,
+  //     batteryCapacity,
+  //     call() {
+  //       console.log("Calling...");
+  //     }
+  //   }
+  // }
+
+  // // Pascal Case
+  // function Cellphone(cellphoneBrand, screenHeight, batteryCapacity) {
+  //   this.cellphoneBrand = cellphoneBrand,
+  //   this.screenHeight = screenHeight,
+  //   this.batteryCapacity = batteryCapacity,
+  //   this.call = function() {
+  //     console.log("Calling....");
+  //   }
+  // }
+
+  // const cellphone = new Cellphone('Asus', 5.5, 5000);
+
+  // console.log(cellphone);
+
+// Dynamic Nature of Objects
+  // const mouse = {
+  //   color : 'red',
+  //   mark : 'dazz',
+  // }
+
+  // mouse.speed = 5000;
+  // mouse.changeDPI = function() {
+  //   console.log('Changing DPI...');
+  // }
+
+  // delete mouse.speed;
+  // delete mouse.changeDPI;
+
+  // console.log(mouse);
+
+// Cloning Objects
+  // const cellphone = {
+  //   cellphoneBrand : 'LG',
+  //   screenHeight : {
+  //     vertical : 155,
+  //     horizontal : 75,
+  //   },
+  //   batteryCapacity : 5000,
+  //   call : function() {
+  //     console.log("Calling...");
+  //   }
+  // }
+
+  // const newObject = Object.assign({
+  //   color: "Red",
+  // },cellphone);
+  // console.log(newObject);
+
+  // // Other Form to clone an object
+  // const object2 = {...cellphone};
+  // console.log(object2);
+
+// Math
+  // Math.random(); // generate a random number
+  // Math.max(3,6,8,10); // show the biggest number
+  // Math.min(5,8,4,8); // show the smallest number
+  // Search in google, Javascript Math MDN
+
+// String
+  // primitive type
+  // const message = 'message';
+  // // object type
+  // const otherMessage = new String('New String');
+  // in this const otherMessage in the console.log
+  // otherMessage.lenght = Shows how many letter have 
+  // otherMessage[2] = Shows what is the second letter, counting by 0 1 2 etc
+  // 
+  // To view the others, search in google Javascript String MDN
+
+// Template Literal
+  // Write on console message to show the const below
+  // const message = 'Hi this is my\n first message'; // \n = broke lines
+  // // Search in google Javascript escape sequences MDN
+
+  // const name = "Nikolas";
+
+  // const email = 
+  // `Hello mate
+  
+  // Thanks to read this Lines
+  
+  // Thanks
+  // ${name}.`;
+
+// Date
+  // const date1 = new Date();
+  // const date2 = new Date('March 06 2019 09:30');
+  // const date3 = new Date(2019,03,06,9,30);
+  // // Search in google Javascript Date MDN
 
 
 
